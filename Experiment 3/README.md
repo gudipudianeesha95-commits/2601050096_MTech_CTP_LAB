@@ -25,36 +25,46 @@ Queue
 
 3. Remove elements using dequeue.
 
-4. Python Program
+**Python Program**
 
-5. from collections import deque
+from collections import deque
 
-# Stack
+*# Stack
+
 stack = []
 
 stack.append(10)
+
 stack.append(20)
+
 stack.append(30)
 
 print("Stack:", stack)
+
 print("Popped:", stack.pop())
 
-# Queue
+*# Queue
+
 queue = deque()
 
 queue.append(10)
+
 queue.append(20)
+
 queue.append(30)
 
 print("Queue:", list(queue))
+
 print("Removed:", queue.popleft())
 
 **Output**
 
 Stack: [10, 20, 30]
+
 Popped: 30
 
 Queue: [10, 20, 30]
+
 Removed: 10
 
 **Data & Result**
