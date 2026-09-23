@@ -56,6 +56,6 @@ Merge Sort successfully sorted the data.
 
 Time Complexity: O(n log n)
 
-Result
+**Result**
 
 Thus, Merge Sort was successfully implemented.
