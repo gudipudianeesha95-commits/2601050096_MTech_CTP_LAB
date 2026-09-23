@@ -10,17 +10,24 @@ To implement Stack and Queue using Python.
 
 Stack
 
-Create an empty stack.
-Add elements using push.
-Remove elements using pop.
+1. Create an empty stack.
+
+2. Add elements using push.
+
+3. Remove elements using pop.
+
 
 Queue
 
-Create an empty queue.
-Add elements using enqueue.
-Remove elements using dequeue.
-Python Program
-from collections import deque
+1. Create an empty queue.
+
+2. Add elements using enqueue.
+
+3. Remove elements using dequeue.
+
+4. Python Program
+
+5. from collections import deque
 
 # Stack
 stack = []
