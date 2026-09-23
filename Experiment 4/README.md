@@ -19,10 +19,10 @@ To compare List and Generator processing.
 **Python Program**
 import sys
 
-# List
+*# List
 numbers = [x * 2 for x in range(10000)]
 
-# Generator
+*# Generator
 generator = (x * 2 for x in range(10000))
 
 print("List Memory:", sys.getsizeof(numbers))
