@@ -17,15 +17,21 @@ To compare List and Generator processing.
 4. Compare memory and execution time.
 
 **Python Program**
+
 import sys
 
 *# List
+
 numbers = [x * 2 for x in range(10000)]
 
+
 *# Generator
+
 generator = (x * 2 for x in range(10000))
 
+
 print("List Memory:", sys.getsizeof(numbers))
+
 print("Generator Memory:", sys.getsizeof(generator))
 
 **Output**
@@ -33,6 +39,7 @@ print("Generator Memory:", sys.getsizeof(generator))
 Example:
 
 List Memory: 85176
+
 Generator Memory: 200
 
 **Data & Result**
