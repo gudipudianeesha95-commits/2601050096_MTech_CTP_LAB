@@ -22,22 +22,17 @@ Display the produced and consumed values.
 
 import threading
 import queue
+
 q = queue.Queue()
 
 def producer():
-  
     for i in range(5):
-    
         q.put(i)
-        
         print("Produced:", i)
 
 def consumer():
-    
     for i in range(5):
-    
         value = q.get()
-        
         print("Consumed:", value)
 
 t1 = threading.Thread(target=producer)
